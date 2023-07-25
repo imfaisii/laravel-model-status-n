@@ -5,9 +5,9 @@ return [
     /*
      * The class name of the status model that holds all statuses.
      *
-     * The model must be or extend `Spatie\ModelStatus\Status`.
+     * The model must be or extend `Imfaisii\ModelStatus\Status`.
      */
-    'status_model' => Spatie\ModelStatus\Status::class,
+    'status_model' => Imfaisii\ModelStatus\Status::class,
 
     /*
      * The name of the attribute to access the latest status.

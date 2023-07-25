@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\ModelStatus;
+namespace Imfaisii\ModelStatus;
 
 use Illuminate\Support\ServiceProvider;
-use Spatie\ModelStatus\Exceptions\InvalidStatusModel;
+use Imfaisii\ModelStatus\Exceptions\InvalidStatusModel;
 
 class ModelStatusServiceProvider extends ServiceProvider
 {

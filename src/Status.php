@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\ModelStatus;
+namespace Imfaisii\ModelStatus;
 
 use App\Models\User;
 use Illuminate\Database\Eloquent\Model;

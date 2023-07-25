@@ -1,16 +1,16 @@
 <?php
 
-namespace Spatie\ModelStatus\Events;
+namespace Imfaisii\ModelStatus\Events;
 
 use Illuminate\Database\Eloquent\Model;
-use Spatie\ModelStatus\Status;
+use Imfaisii\ModelStatus\Status;
 
 class StatusUpdated
 {
-    /** @var \Spatie\ModelStatus\Status|null */
+    /** @var \Imfaisii\ModelStatus\Status|null */
     public $oldStatus;
 
-    /** @var \Spatie\ModelStatus\Status */
+    /** @var \Imfaisii\ModelStatus\Status */
     public $newStatus;
 
     /** @var \Illuminate\Database\Eloquent\Model */

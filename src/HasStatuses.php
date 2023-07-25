@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\ModelStatus;
+namespace Imfaisii\ModelStatus;
 
 use \Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Builder;
@@ -9,8 +9,8 @@ use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Database\Query\Builder as QueryBuilder;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;
-use Spatie\ModelStatus\Events\StatusUpdated;
-use Spatie\ModelStatus\Exceptions\InvalidStatus;
+use Imfaisii\ModelStatus\Events\StatusUpdated;
+use Imfaisii\ModelStatus\Exceptions\InvalidStatus;
 
 trait HasStatuses
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\ModelStatus\Exceptions;
+namespace Imfaisii\ModelStatus\Exceptions;
 
 use Exception;
 

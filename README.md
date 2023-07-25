@@ -1,9 +1,9 @@
 # Assign statuses to Eloquent models
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/spatie/laravel-model-status.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-model-status)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/spatie/laravel-model-status/run-tests.yml?branch=main&label=tests&style=flat-square)
-![Check & fix styling](https://github.com/spatie/laravel-model-status/workflows/Check%20&%20fix%20styling/badge.svg)
-[![Total Downloads](https://img.shields.io/packagist/dt/spatie/laravel-model-status.svg?style=flat-square)](https://packagist.org/packages/spatie/laravel-model-status)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/imfaisii/laravel-model-status.svg?style=flat-square)](https://packagist.org/packages/imfaisii/laravel-model-status)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/imfaisii/laravel-model-status/run-tests.yml?branch=main&label=tests&style=flat-square)
+![Check & fix styling](https://github.com/imfaisii/laravel-model-status/workflows/Check%20&%20fix%20styling/badge.svg)
+[![Total Downloads](https://img.shields.io/packagist/dt/imfaisii/laravel-model-status.svg?style=flat-square)](https://packagist.org/packages/imfaisii/laravel-model-status)
 
 Imagine you want to have an Eloquent model hold a status. It's easily solved by just adding a `status` field to that model and be done with it. But in case you need a history of status changes or need to store some extra info on why a status changed, just adding a single field won't cut it.
 
@@ -30,18 +30,18 @@ $latestPendingStatus->reason; // returns 'needs verification'
 
 ## Support us
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/laravel-model-status.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/laravel-model-status)
+[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/laravel-model-status.jpg?t=1" width="419px" />](https://imfaisii.be/github-ad-click/laravel-model-status)
 
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
+We invest a lot of resources into creating [best in class open source packages](https://imfaisii.be/open-source). You can support us by [buying one of our paid products](https://imfaisii.be/open-source/support-us).
 
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
+We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://imfaisii.be/about-us). We publish all received postcards on [our virtual postcard wall](https://imfaisii.be/open-source/postcards).
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require spatie/laravel-model-status
+composer require imfaisii/laravel-model-status
 ```
 
 You must publish the migration with:
@@ -286,11 +286,11 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/spatie/.github/blob/main/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/imfaisii/.github/blob/main/CONTRIBUTING.md) for details.
 
 ### Security
 
-If you've found a bug regarding security please mail [security@spatie.be](mailto:security@spatie.be) instead of using the issue tracker.
+If you've found a bug regarding security please mail [security@imfaisii.be](mailto:security@imfaisii.be) instead of using the issue tracker.
 
 ## Credits
 

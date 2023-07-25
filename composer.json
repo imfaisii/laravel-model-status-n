@@ -1,23 +1,23 @@
 {
-    "name": "imfaisii/laravel-model-status-name",
-    "description": "A package to enable assigning statuses to Eloquent Models, this is a copy of spatie package for personal use only.",
+    "name": "imfaisii/laravel-model-status",
+    "description": "A package to enable assigning statuses to Eloquent Models",
     "keywords": [
-        "spatie",
+        "imfaisii",
         "laravel-status"
     ],
-    "homepage": "https://github.com/imfaisii/laravel-model-status-n",
+    "homepage": "https://github.com/imfaisii/laravel-model-status",
     "license": "MIT",
     "authors": [
         {
             "name": "Thomas Verhelst",
             "email": "tvke91@gmail.com",
-            "homepage": "https://spatie.be",
+            "homepage": "https://imfaisii.be",
             "role": "Developer"
         },
         {
             "name": "Freek Van der Herten",
-            "email": "freek@spatie.be",
-            "homepage": "https://spatie.be",
+            "email": "freek@imfaisii.be",
+            "homepage": "https://imfaisii.be",
             "role": "Developer"
         }
     ],
@@ -32,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\ModelStatus\\": "src"
+            "Imfaisii\\ModelStatus\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\ModelStatus\\Tests\\": "tests"
+            "Imfaisii\\ModelStatus\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -53,7 +53,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\ModelStatus\\ModelStatusServiceProvider"
+                "Imfaisii\\ModelStatus\\ModelStatusServiceProvider"
             ]
         }
     },
