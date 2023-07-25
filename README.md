@@ -1,9 +1,9 @@
 # Assign statuses to Eloquent models
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/Imfaisii/laravel-model-status.svg?style=flat-square)](https://packagist.org/packages/Imfaisii/laravel-model-status)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Imfaisii/laravel-model-status/run-tests.yml?branch=main&label=tests&style=flat-square)
-![Check & fix styling](https://github.com/Imfaisii/laravel-model-status/workflows/Check%20&%20fix%20styling/badge.svg)
-[![Total Downloads](https://img.shields.io/packagist/dt/Imfaisii/laravel-model-status.svg?style=flat-square)](https://packagist.org/packages/Imfaisii/laravel-model-status)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/imfaisii/laravel-model-status.svg?style=flat-square)](https://packagist.org/packages/imfaisii/laravel-model-status)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/imfaisii/laravel-model-status/run-tests.yml?branch=main&label=tests&style=flat-square)
+![Check & fix styling](https://github.com/imfaisii/laravel-model-status/workflows/Check%20&%20fix%20styling/badge.svg)
+[![Total Downloads](https://img.shields.io/packagist/dt/imfaisii/laravel-model-status.svg?style=flat-square)](https://packagist.org/packages/imfaisii/laravel-model-status)
 
 Imagine you want to have an Eloquent model hold a status. It's easily solved by just adding a `status` field to that model and be done with it. But in case you need a history of status changes or need to store some extra info on why a status changed, just adding a single field won't cut it.
 
@@ -41,7 +41,7 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 You can install the package via composer:
 
 ```bash
-composer require Imfaisii/laravel-model-status
+composer require imfaisii/laravel-model-status
 ```
 
 You must publish the migration with:

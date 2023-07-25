@@ -6,58 +6,58 @@ All notable changes to `laravel-model-status` will be documented in this file
 
 ### What's Changed
 
-- getStatusNames by @tal7aouy in https://github.com/Imfaisii/laravel-model-status/pull/104
+- getStatusNames by @tal7aouy in https://github.com/imfaisii/laravel-model-status/pull/104
 
 ### New Contributors
 
-- @tal7aouy made their first contribution in https://github.com/Imfaisii/laravel-model-status/pull/104
+- @tal7aouy made their first contribution in https://github.com/imfaisii/laravel-model-status/pull/104
 
-**Full Changelog**: https://github.com/Imfaisii/laravel-model-status/compare/1.12.0...1.13.0
+**Full Changelog**: https://github.com/imfaisii/laravel-model-status/compare/1.12.0...1.13.0
 
 ## 1.12.0 - 2023-05-17
 
 ### What's Changed
 
-- Fix Broken Badge by @SupianIDz in https://github.com/Imfaisii/laravel-model-status/pull/101
-- Feature/configurable status attribute by @vinlim in https://github.com/Imfaisii/laravel-model-status/pull/102
+- Fix Broken Badge by @SupianIDz in https://github.com/imfaisii/laravel-model-status/pull/101
+- Feature/configurable status attribute by @vinlim in https://github.com/imfaisii/laravel-model-status/pull/102
 
 ### New Contributors
 
-- @SupianIDz made their first contribution in https://github.com/Imfaisii/laravel-model-status/pull/101
-- @vinlim made their first contribution in https://github.com/Imfaisii/laravel-model-status/pull/102
+- @SupianIDz made their first contribution in https://github.com/imfaisii/laravel-model-status/pull/101
+- @vinlim made their first contribution in https://github.com/imfaisii/laravel-model-status/pull/102
 
-**Full Changelog**: https://github.com/Imfaisii/laravel-model-status/compare/1.11.1...1.12.0
+**Full Changelog**: https://github.com/imfaisii/laravel-model-status/compare/1.11.1...1.12.0
 
 ## 1.11.1 - 2023-01-25
 
 ### What's Changed
 
-- Refactor tests to Pest by @alexmanase in https://github.com/Imfaisii/laravel-model-status/pull/90
-- Add PHP 8.2 Support by @patinthehat in https://github.com/Imfaisii/laravel-model-status/pull/91
-- Laravel 10.x Compatibility by @laravel-shift in https://github.com/Imfaisii/laravel-model-status/pull/98
+- Refactor tests to Pest by @alexmanase in https://github.com/imfaisii/laravel-model-status/pull/90
+- Add PHP 8.2 Support by @patinthehat in https://github.com/imfaisii/laravel-model-status/pull/91
+- Laravel 10.x Compatibility by @laravel-shift in https://github.com/imfaisii/laravel-model-status/pull/98
 
 ### New Contributors
 
-- @alexmanase made their first contribution in https://github.com/Imfaisii/laravel-model-status/pull/90
+- @alexmanase made their first contribution in https://github.com/imfaisii/laravel-model-status/pull/90
 
-**Full Changelog**: https://github.com/Imfaisii/laravel-model-status/compare/1.11.0...1.11.1
+**Full Changelog**: https://github.com/imfaisii/laravel-model-status/compare/1.11.0...1.11.1
 
 ## 1.11.0 - 2022-02-03
 
 ## What's Changed
 
 - Support for Laravel 9
-- Minor typo fix by @vdbelt in https://github.com/Imfaisii/laravel-model-status/pull/80
-- Migrate to PHP-CS-Fixer 3.x by @shuvroroy in https://github.com/Imfaisii/laravel-model-status/pull/81
-- Add PHP 8.1 Support by @patinthehat in https://github.com/Imfaisii/laravel-model-status/pull/83
+- Minor typo fix by @vdbelt in https://github.com/imfaisii/laravel-model-status/pull/80
+- Migrate to PHP-CS-Fixer 3.x by @shuvroroy in https://github.com/imfaisii/laravel-model-status/pull/81
+- Add PHP 8.1 Support by @patinthehat in https://github.com/imfaisii/laravel-model-status/pull/83
 
 ## New Contributors
 
-- @vdbelt made their first contribution in https://github.com/Imfaisii/laravel-model-status/pull/80
-- @shuvroroy made their first contribution in https://github.com/Imfaisii/laravel-model-status/pull/81
-- @patinthehat made their first contribution in https://github.com/Imfaisii/laravel-model-status/pull/83
+- @vdbelt made their first contribution in https://github.com/imfaisii/laravel-model-status/pull/80
+- @shuvroroy made their first contribution in https://github.com/imfaisii/laravel-model-status/pull/81
+- @patinthehat made their first contribution in https://github.com/imfaisii/laravel-model-status/pull/83
 
-**Full Changelog**: https://github.com/Imfaisii/laravel-model-status/compare/1.10.2...1.11.0
+**Full Changelog**: https://github.com/imfaisii/laravel-model-status/compare/1.10.2...1.11.0
 
 ## 1.11.0 - 2022-02-03
 
