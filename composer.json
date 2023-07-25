@@ -1,23 +1,23 @@
 {
-    "name": "imfaisii/laravel-model-status",
+    "name": "Imfaisii/laravel-model-status",
     "description": "A package to enable assigning statuses to Eloquent Models",
     "keywords": [
-        "imfaisii",
+        "Imfaisii",
         "laravel-status"
     ],
-    "homepage": "https://github.com/imfaisii/laravel-model-status",
+    "homepage": "https://github.com/Imfaisii/laravel-model-status",
     "license": "MIT",
     "authors": [
         {
             "name": "Thomas Verhelst",
             "email": "tvke91@gmail.com",
-            "homepage": "https://imfaisii.be",
+            "homepage": "https://Imfaisii.be",
             "role": "Developer"
         },
         {
             "name": "Freek Van der Herten",
-            "email": "freek@imfaisii.be",
-            "homepage": "https://imfaisii.be",
+            "email": "freek@Imfaisii.be",
+            "homepage": "https://Imfaisii.be",
             "role": "Developer"
         }
     ],

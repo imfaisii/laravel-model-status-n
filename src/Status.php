@@ -2,9 +2,9 @@
 
 namespace Imfaisii\ModelStatus;
 
-use App\Models\User;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
+use App\Models\User;
 
 class Status extends Model
 {

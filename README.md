@@ -1,9 +1,9 @@
 # Assign statuses to Eloquent models
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/imfaisii/laravel-model-status.svg?style=flat-square)](https://packagist.org/packages/imfaisii/laravel-model-status)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/imfaisii/laravel-model-status/run-tests.yml?branch=main&label=tests&style=flat-square)
-![Check & fix styling](https://github.com/imfaisii/laravel-model-status/workflows/Check%20&%20fix%20styling/badge.svg)
-[![Total Downloads](https://img.shields.io/packagist/dt/imfaisii/laravel-model-status.svg?style=flat-square)](https://packagist.org/packages/imfaisii/laravel-model-status)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/Imfaisii/laravel-model-status.svg?style=flat-square)](https://packagist.org/packages/Imfaisii/laravel-model-status)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Imfaisii/laravel-model-status/run-tests.yml?branch=main&label=tests&style=flat-square)
+![Check & fix styling](https://github.com/Imfaisii/laravel-model-status/workflows/Check%20&%20fix%20styling/badge.svg)
+[![Total Downloads](https://img.shields.io/packagist/dt/Imfaisii/laravel-model-status.svg?style=flat-square)](https://packagist.org/packages/Imfaisii/laravel-model-status)
 
 Imagine you want to have an Eloquent model hold a status. It's easily solved by just adding a `status` field to that model and be done with it. But in case you need a history of status changes or need to store some extra info on why a status changed, just adding a single field won't cut it.
 
@@ -20,7 +20,7 @@ $model->setStatus('accepted');
 $model->setStatus('rejected', 'My rejection reason');
 
 // get the current status
-$model->status(); // returns an instance of \Spatie\ModelStatus\Status
+$model->status(); // returns an instance of \Imfaisii\ModelStatus\Status
 
 // get the previous status
 $latestPendingStatus = $model->latestStatus('pending');
@@ -30,23 +30,23 @@ $latestPendingStatus->reason; // returns 'needs verification'
 
 ## Support us
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/laravel-model-status.jpg?t=1" width="419px" />](https://imfaisii.be/github-ad-click/laravel-model-status)
+[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/laravel-model-status.jpg?t=1" width="419px" />](https://Imfaisii.be/github-ad-click/laravel-model-status)
 
-We invest a lot of resources into creating [best in class open source packages](https://imfaisii.be/open-source). You can support us by [buying one of our paid products](https://imfaisii.be/open-source/support-us).
+We invest a lot of resources into creating [best in class open source packages](https://Imfaisii.be/open-source). You can support us by [buying one of our paid products](https://Imfaisii.be/open-source/support-us).
 
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://imfaisii.be/about-us). We publish all received postcards on [our virtual postcard wall](https://imfaisii.be/open-source/postcards).
+We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://Imfaisii.be/about-us). We publish all received postcards on [our virtual postcard wall](https://Imfaisii.be/open-source/postcards).
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require imfaisii/laravel-model-status
+composer require Imfaisii/laravel-model-status
 ```
 
 You must publish the migration with:
 ```bash
-php artisan vendor:publish --provider="Spatie\ModelStatus\ModelStatusServiceProvider" --tag="migrations"
+php artisan vendor:publish --provider="Imfaisii\ModelStatus\ModelStatusServiceProvider" --tag="migrations"
 ```
 
 Migrate the `statuses` table:
@@ -57,7 +57,7 @@ php artisan migrate
 
 Optionally you can publish the config-file with:
 ```bash
-php artisan vendor:publish --provider="Spatie\ModelStatus\ModelStatusServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Imfaisii\ModelStatus\ModelStatusServiceProvider" --tag="config"
 ```
 
 This is the contents of the file which will be published at `config/model-status.php`
@@ -68,9 +68,9 @@ return [
     /*
      * The class name of the status model that holds all statuses.
      *
-     * The model must be or extend `Spatie\ModelStatus\Status`.
+     * The model must be or extend `Imfaisii\ModelStatus\Status`.
      */
-    'status_model' => Spatie\ModelStatus\Status::class,
+    'status_model' => Imfaisii\ModelStatus\Status::class,
 
     /*
      * The name of the column which holds the ID of the model related to the statuses.
@@ -87,7 +87,7 @@ return [
 Add the `HasStatuses` trait to a model you like to use statuses on.
 
 ```php
-use Spatie\ModelStatus\HasStatuses;
+use Imfaisii\ModelStatus\HasStatuses;
 
 class YourEloquentModel extends Model
 {
@@ -116,7 +116,7 @@ You can get the current status of model:
 ```php
 $model->status; // returns a string with the name of the latest status
 
-$model->status(); // returns the latest instance of `Spatie\ModelStatus\Status`
+$model->status(); // returns the latest instance of `Imfaisii\ModelStatus\Status`
 
 $model->latestStatus(); // equivalent to `$model->status()`
 ```
@@ -124,7 +124,7 @@ $model->latestStatus(); // equivalent to `$model->status()`
 You can also get latest status of a given name:
 
 ```php
-$model->latestStatus('pending'); // returns an instance of `Spatie\ModelStatus\Status` that has the name `pending`
+$model->latestStatus('pending'); // returns an instance of `Imfaisii\ModelStatus\Status` that has the name `pending`
 ```
 Get all available status names for the model.
 
@@ -199,7 +199,7 @@ public function isValidStatus(string $name, ?string $reason = null): bool
 }
 ```
 
-If `isValidStatus` returns `false` a `Spatie\ModelStatus\Exceptions\InvalidStatus` exception will be thrown.
+If `isValidStatus` returns `false` a `Imfaisii\ModelStatus\Exceptions\InvalidStatus` exception will be thrown.
 
 You may bypass validation with the `forceSetStatus` method:
 
@@ -233,20 +233,20 @@ $model->deleteStatus(['status 1', 'status 2']);
 
 ### Events
 
-The`Spatie\ModelStatus\Events\StatusUpdated`  event will be dispatched when the status is updated.
+The`Imfaisii\ModelStatus\Events\StatusUpdated`  event will be dispatched when the status is updated.
 
 ```php
-namespace Spatie\ModelStatus\Events;
+namespace Imfaisii\ModelStatus\Events;
 
 use Illuminate\Database\Eloquent\Model;
-use Spatie\ModelStatus\Status;
+use Imfaisii\ModelStatus\Status;
 
 class StatusUpdated
 {
-    /** @var \Spatie\ModelStatus\Status|null */
+    /** @var \Imfaisii\ModelStatus\Status|null */
     public $oldStatus;
 
-    /** @var \Spatie\ModelStatus\Status */
+    /** @var \Imfaisii\ModelStatus\Status */
     public $newStatus;
 
     /** @var \Illuminate\Database\Eloquent\Model */
@@ -286,11 +286,11 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/imfaisii/.github/blob/main/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/Imfaisii/.github/blob/main/CONTRIBUTING.md) for details.
 
 ### Security
 
-If you've found a bug regarding security please mail [security@imfaisii.be](mailto:security@imfaisii.be) instead of using the issue tracker.
+If you've found a bug regarding security please mail [security@Imfaisii.be](mailto:security@Imfaisii.be) instead of using the issue tracker.
 
 ## Credits
 
