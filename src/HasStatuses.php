@@ -17,7 +17,10 @@ trait HasStatuses
     public function statuses(): MorphMany
     {
         return $this->morphMany($this->getStatusModelClassName(), 'model', 'model_type', $this->getModelKeyColumnName())
-            ->latest('id');
+            ->latest('id')
+            ->with('user', function ($query) {
+                $query->select('id', 'name');
+            });
     }
 
     public function status(): ?Status
