@@ -5,9 +5,12 @@ namespace Imfaisii\ModelStatus;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 use App\Models\User;
+use LaracraftTech\LaravelDateScopes\DateScopes;
 
 class Status extends Model
 {
+    use DateScopes;
+    
     protected $guarded = [];
 
     protected $table = 'statuses';
