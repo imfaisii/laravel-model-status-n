@@ -24,7 +24,7 @@
     "require": {
         "php": "^8.0|^8.1",
         "illuminate/support": "^8.71|^9.0|^10.0",
-        "laracraft-tech/laravel-date-scopes": "^2.1",
+        "laracraft-tech/laravel-date-scopes": "^2.1"
     },
     "require-dev": {
         "orchestra/testbench": "^6.6|^7.0|^8.0",
